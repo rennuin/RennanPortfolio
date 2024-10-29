@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\Administrator\OneDrive\Desktop\Rennan\new Portfolio\background\background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Section Titles */
+h2 {
+    color: #444;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Jobs */
+.job h3 {
+    margin-top: 10px;
+    color: #00aaff;
+}
+
+.job p {
+    font-weight: bold;
+}
+
+/* Personal Info List */
+.personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info ul li {
+    margin: 5px 0;
+}
+
+/* Section Margins */
+section {
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

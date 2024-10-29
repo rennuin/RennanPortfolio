@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rennan Bargola Joaquin - Profile</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="threeD-header">Rennan Bargola Joaquin</h1>
+            <p>Motivated IT professional with expertise in web development, IT support, and software development.</p>
+        </header>
+
+       
+        <section class="personal-info" id="personalInfo">
+            <button id="toggleButton"><h2>Show Personal Information</h2></button>
+            <ul id="infoList">
+                <li><strong>Gender:</strong> Male</li>
+                <li><strong>Date of Birth:</strong> April 7, 1993</li>
+                <li><strong>Age:</strong> 31</li>
+                <li><strong>Skype ID:</strong> live:rennuin</li>
+            </ul>
+        </section>
+    
+        <script>
+            const toggleButton = document.getElementById('toggleButton');
+            const infoList = document.getElementById('infoList');
+    
+            toggleButton.addEventListener('click', function() {
+                // Toggle visibility of the info list
+                if (infoList.style.display === 'none' || infoList.style.display === '') {
+                    infoList.style.display = 'block'; // Show the list
+                    toggleButton.textContent = 'Hide Personal Information'; // Change button text
+                } else {
+                    infoList.style.display = 'none'; // Hide the list
+                    toggleButton.textContent = 'Show Personal Information'; // Change button text
+                }
+            });
+        </script>
+    
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>Associate Computer Technology</strong></p>
+            <p>STI College, General Santos City<br>SY June 2014 – April 2018</p>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: HTML, CSS, JavaScript, C#</li>
+                <li>Frameworks & Libraries: Angular, .NET Core</li>
+                <li>Database Management: SQL Server, MySQL</li>
+                <li>Tools: Microsoft Word, Excel, Google Sheets</li>
+                <li>Web Development: Front-end development</li>
+            </ul>
+        </section>
+
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h3>Gaisano Mall of Gensan</h3>
+                <p><strong>IT Support</strong> (April 2018 - 2020)</p>
+                <ul>
+                    <li>Provided technical support for hardware, software, and network-related issues.</li>
+                    <li>Set up, installed, and configured computer systems, networks, and software.</li>
+                    <li>Performed system updates, backups, and maintenance tasks.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Hub 101 (Davao)</h3>
+                <p><strong>CCTV Installer/Config</strong> (Oct 2021 - May 2022)</p>
+                <ul>
+                    <li>Installed and configured CCTV systems and networked IP cameras.</li>
+                    <li>Troubleshot CCTV connectivity and configured routers and switches.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Solid Shipping Lines</h3>
+                <p><strong>Warehouse IT/Encoder</strong> (June 2022 - Dec 2023)</p>
+                <ul>
+                    <li>Installed and maintained warehouse devices, such as barcode scanners and printers.</li>
+                    <li>Ensured smooth operation of software for inventory and shipping management.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="trainings">
+            <h2>Trainings and Ongoing Projects</h2>
+            <ul>
+                <li>Attended training on HTML, CSS, JavaScript, Angular, NodeJS, ASP.NET, and C#.</li>
+                <li>Ongoing project: Developing a Budget and Expense management system.</li>
+                <li>RESTful API development in progress.</li>
+            </ul>
+        </section>
+
+        <section class="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Problem-Solving</li>
+                <li>Team Collaboration</li>
+                <li>Communication Skills</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section class="references">
+            <h2>References</h2>
+            <ul>
+                <li>Philip John Tampus – Software Engineer / Full Stack Developer</li>
+                <li>Geoman Yabes – Senior Developer</li>
+                <li>Mark Bustria – Frontend / Backend Developer</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
